@@ -1,3 +1,5 @@
 Today i learnt about VM, container, virtualization, containeralization
 
-Earlier, one app ran on one server, wasting capacity and money. Virtualization split one physical machine into several isolated VMs, each with its own specs, which cut costs. But every VM carries a full OS, making it heavy and slow to start. Containers solved this by packaging only the app and its dependencies and sharing the host’s OS kernel, so they’re light, fast, and run the same everywhere.
+Earlier, one app ran on one server, wasting capacity and money. Virtualization split one physical machine into several isolated VMs, 
+each with its own specs, which cut costs. But every VM carries a full OS, making it heavy and slow to start.
+Containers solved this by packaging only the app and its dependencies and sharing the host’s OS kernel, so they’re light, fast, and run the same everywhere.
